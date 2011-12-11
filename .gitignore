@@ -1,5 +1,7 @@
 .dcps.a2xlog
 .svn
+*.swp
 figs
 pdf
+*.html
 book.dcpsgen.xml
