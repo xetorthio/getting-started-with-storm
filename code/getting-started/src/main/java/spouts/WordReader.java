@@ -11,12 +11,6 @@ import backtype.storm.topology.OutputFieldsDeclarer;
 import backtype.storm.tuple.Fields;
 import backtype.storm.tuple.Values;
 
-/**
- * 
- * 
- * @author StormBook
- *
- */
 public class WordReader implements IRichSpout {
 
 	private SpoutOutputCollector collector;
@@ -27,7 +21,6 @@ public class WordReader implements IRichSpout {
 	public void close() {}
 	public void fail(Object msgId) {}
 
-	
 	/**
 	 * The only thing that the methods will do It is emit each 
 	 * file line
@@ -82,5 +75,4 @@ public class WordReader implements IRichSpout {
 	public void declareOutputFields(OutputFieldsDeclarer declarer) {
 		declarer.declare(new Fields("line"));
 	}
-
 }
