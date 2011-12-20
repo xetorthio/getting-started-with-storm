@@ -16,6 +16,13 @@ public class WordNormalizer implements IRichBolt {
 
 	public void cleanup() {}
 
+	/**
+	 * The bolt will receive the line from the
+	 * words file and process it to Normalize this line
+	 * 
+	 * The normalize will be put the words in lower case
+	 * and split the line to get all words in this 
+	 */
 	public void execute(Tuple input) {
 		String word = input.getString(0);
 		word = word.trim();
@@ -24,10 +31,12 @@ public class WordNormalizer implements IRichBolt {
 		for(String str : words){
 			str = str.trim();
 			if(!"".equals(str)){
+				//Emit the word
 				collector.emit(new Values(str));
-				collector.ack(input);
 			}
 		}
+		//Set the tuple as Acknowledge
+		collector.ack(input);
 	}
 
 	public void prepare(Map stormConf, TopologyContext context,
@@ -35,6 +44,9 @@ public class WordNormalizer implements IRichBolt {
 		this.collector = collector;
 	}
 
+	/**
+	 * The bolt will only emit the field "word" 
+	 */
 	public void declareOutputFields(OutputFieldsDeclarer declarer) {
 		declarer.declare(new Fields("word"));
 	}
