@@ -1,6 +1,7 @@
 import spouts.WordReader;
 import backtype.storm.Config;
 import backtype.storm.LocalCluster;
+import backtype.storm.generated.StormTopology;
 import backtype.storm.topology.TopologyBuilder;
 import bolts.WordCounter;
 import bolts.WordNormalizer;
@@ -22,7 +23,8 @@ public class TopologyMain {
 		
         //Topology run
 		LocalCluster cluster = new LocalCluster();
-		cluster.submitTopology("Getting-Started-Toplogie", conf, builder.createTopology());
+		StormTopology topology = builder.createTopology();
+		cluster.submitTopology("Getting-Started-Toplogie", conf, topology);
 		Thread.sleep(2000);
 		cluster.shutdown();
 	}
