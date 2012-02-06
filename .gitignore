@@ -6,3 +6,5 @@ pdf
 *.pdf
 *.html
 book.dcpsgen.xml
+.DS_Store
+view.sh
