@@ -21,10 +21,10 @@
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="188.75" width="390.77754974365234" x="544.9322509765625" y="163.5255012512207"/>
+              <y:Geometry height="188.75" width="329.84004974365234" x="544.9322509765625" y="163.5255012512207"/>
               <y:Fill color="#F5F5F5" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="390.77754974365234" x="0.0" y="0.0">Topology</y:NodeLabel>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="329.84004974365234" x="0.0" y="0.0">Topology</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
@@ -60,7 +60,7 @@
           <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="51.25" width="110.0" x="810.7098007202148" y="253.5"/>
+              <y:Geometry height="51.25" width="110.0" x="749.7723007202148" y="241.0"/>
               <y:Fill color="#FFCC00" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="102.2734375" x="3.86328125" y="16.640625">Rest of topology</y:NodeLabel>
