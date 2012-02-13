@@ -31,7 +31,7 @@
     <node id="n1">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="64.96826171875" width="56.554100036621094" x="263.3614749908447" y="117.515869140625"/>
+          <y:Geometry height="64.96826171875" width="56.554100036621094" x="263.3614749908447" y="159.515869140625"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="26.277050018310547" y="68.96826171875"/>
@@ -43,7 +43,6 @@
       </data>
     </node>
     <node id="n2">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="69.94900512695312" width="105.27705001831055" x="239.0" y="279.02549743652344"/>
@@ -112,7 +111,7 @@
     <node id="n8">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="358.0" y="123.0"/>
+          <y:Geometry height="30.0" width="30.0" x="358.0" y="165.0"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="91.169921875" x="-30.5849609375" y="5.93359375">I'm not a bank!</y:NodeLabel>
@@ -155,7 +154,7 @@
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="390.0" y="150.0"/>
+            <y:Point x="390.0" y="192.0"/>
             <y:Point x="390.0" y="314.0"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
