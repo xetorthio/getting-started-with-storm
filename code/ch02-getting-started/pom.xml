@@ -36,10 +36,10 @@
   <dependencies>
 
         <!-- Storm Dependency -->
-        <dependency>
+        <dependency> 
           <groupId>storm</groupId>
           <artifactId>storm</artifactId>
-          <version>0.6.0</version>
+          <version>0.7.1</version>
        </dependency>
 
   </dependencies>
